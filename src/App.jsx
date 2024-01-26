@@ -1,4 +1,5 @@
 import "./App.css";
+import Cart from "./components/Cart";
 import Explore from "./components/Explore";
 import Featured from "./components/Featured";
 import Footer from "./components/Footer";
@@ -9,9 +10,10 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
+      {/* <Hero />
       <Featured />
-      <Explore />
+      <Explore /> */}
+      <Cart />
       <Footer />
     </div>
   );
